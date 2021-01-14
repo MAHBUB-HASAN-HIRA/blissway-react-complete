@@ -1,0 +1,101 @@
+/* === Hero Section === */
+.hero-wrap{float: left; width: 100%; padding: 172px 0 96px; background-color: #0D0D0D; z-index: 99;}
+.hero-wrap .common-wrap{max-width: 100%;}
+.hero-inner{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center; position: relative;}
+.hero-link-wrap{position: fixed; top: 34px; right: 30px; width: 100%; clear: both; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: flex-end}
+.hero-link-wrap a{ color: #ffffff; font-size: 12px; line-height: 15px; background-color: #272727; border-radius: 11px; padding: 5px 12px; font-family: 'Lato', sans-serif; font-weight: 700; letter-spacing: 1.2px; position: relative; z-index: 99;}
+.logo{width: 259px;}
+.hero-content-wrap{float: left; width: 100%; margin-top: 60px;}
+.hero-content{float: left; width: 100%; text-align: center; position: relative;}
+.solving-logo-wrap{float: left; width: 100%;}
+.solving-logo-wrap:before{content: ''; position: absolute; top: 0; left: auto; right: -30px; width: 13%; height: 14.5px; background-color: #575757; border-radius: 12px; top: 34%; transform: translateY(-50%);}
+.solving-logo-wrap:after{content: ''; position: absolute; top: 0; left: auto; right: 7.2%; width: 13%; height: 14.5px; background-color: #575757; border-radius: 12px; top: 63%; transform: translateY(-50%);}
+.solving-logo{float: left; width: 100%;}
+.solving-logo:before{content: ''; position: absolute; top: 0; left: -30px; right: auto; width: 10%; height: 14.5px; background-color: #575757; border-radius: 12px; top: 34%; transform: translateY(-50%);}
+.solving-logo:after{content: ''; position: absolute; top: 0; left: -30px; right: auto; width: 21.2%; height: 14.5px; background-color: #575757; border-radius: 12px; top: 63%; transform: translateY(-50%);}
+.hero-content figure{max-width: 787px; display: inline-block; position: relative;}
+.hero-content figure:before{content: ''; position: absolute; right: 100%; left: -10000px; height: 14.5px; top: 62%; transform: translateY(-53%); background-color: #D1001D;}
+.hero-content figure:after{content: ''; position: absolute; left: 100%; right: -10000px; height: 14.5px; top: 62%; transform: translateY(-53%); background-color: #0A91D8;}
+.hero-content h4{float: left; width: 100%; text-align: center; color: #ffffff; font-family: 'Lato', sans-serif; font-weight: 400; position: relative; top: -35px;}
+.scroll-down-wrap{float: left; width: 100%; margin-top: 64px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center;}
+.scroll-down-btn{float: left; width: 100%; width: 95px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;}
+.scroll-down-btn img{width: 26px;}
+.scroll-down-btn span{float: left; width: 100%; font-size: 16px; line-height: 16px; color: #ffffff; margin-top: 19px; font-family: 'Lato', sans-serif; font-weight: 400;}
+.scroll-down-btn dfn{font-family: 'Lato', sans-serif; font-weight: 300; color: #B2B2B2;}
+/* === Hero Section === */
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hero-wrap{padding: 176px 0 50px;}
+    .hero-wrap .common-wrap{padding: 0 0;}
+    .hero-link-wrap{padding: 0 20px; justify-content: center; right: 0; top: 23px;}
+    .solving-logo-wrap{margin-top: 30px;}
+    .logo{width: 207px;}
+    .hero-content h4{float: none; width: 68%!important; float: none; width: 73%; margin: 0 auto; top: 18px; clear: both; clear: both;}
+    .scroll-down-wrap{margin-top: 191px;}
+    .solving-logo:before, .solving-logo:after, .solving-logo-wrap:after, .solving-logo-wrap:before{display: none}
+    .hero-content figure:before, .hero-content figure:after{display: none;}
+}
+
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .hero-wrap{padding: 176px 0 50px;}
+    .hero-wrap .common-wrap{padding: 0 0;}
+    .hero-link-wrap{padding: 0 20px; justify-content: center; right: 0; top: 23px;}
+    .solving-logo-wrap{margin-top: 30px;}
+    .logo{width: 207px;}
+    .hero-content h4{float: none; width: 68%!important; float: none; width: 73%; margin: 0 auto; top: 18px; clear: both; clear: both;}
+    .scroll-down-wrap{margin-top: 191px;}
+    .solving-logo:before, .solving-logo:after, .solving-logo-wrap:after, .solving-logo-wrap:before{display: none}
+    .hero-content figure:before, .hero-content figure:after{display: none;}
+    .solving-logo-wrap:before, .solving-logo-wrap:after{display: none;}
+}
+
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    h1 { font-size: 64px; line-height: 64px; }
+    h2 { font-size: 58px; line-height: 82px; }
+    
+    .solving-logo:before, .solving-logo:after{display: none}
+    .hero-content figure:before, .hero-content figure:after{height: 13px;}
+    .solving-logo-wrap:before, .solving-logo-wrap:after{display: none;}
+}
+
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="number"],input[type="submit"],input[type="password"],select,textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;}
+    h2 { font-size: 58px; line-height: 82px; }
+
+    .solving-logo:after{width: 16%;}
+    .solving-logo-wrap:after {right: 2.2%;}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+}

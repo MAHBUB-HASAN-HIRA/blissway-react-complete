@@ -1,0 +1,69 @@
+/* === News-letter-wrap === */
+.news-letter-wrap{float: left; width: 100%; min-height: 890px; background-color: #0D0D0D; padding-top: 469px;}
+.news-letter-wrap .common-wrap{max-width: 828px;}
+.news-letter-form-wrap{float: left; width: 100%; padding: 0 8.629441624365482%; position: relative;}
+.news-letter-form-wrap:after{content: ''; position: absolute; width: 112px; height: 342px; background-image: url(../../../resources/image/Path_52.png); background-size: cover; background-repeat: no-repeat; background-position: center center; left: 5px; top: -60%;}
+.news-letter-form-wrap:before{content: ''; position: absolute;width: 15px; height: 100%;background-image: linear-gradient(to top, #21DEDE, #1BA5DE);left: 4px;top: -145%;z-index: 1111111;}
+.news-letter-form{float: left; width: 100%; min-height: 341px; background-color: #2E2E2E; border-radius: 41px; padding: 100px 100px 30px;}
+.news-letter-form span{float: left; width: 100%; text-align: center; font-size: 28px; line-height: 34px; font-family: 'Lato', sans-serif; font-weight: 900;}
+.news-letter-form dfn{color: #21DEDE;}
+input{float: left; width: 100%; background-color: transparent; border: none; outline: none; font-size: 23px; line-height: 36px; color: #A2A2A2; padding-right: 10px;}
+input[type="submit"]{font-size: 20px; line-height: 36px; font-family: 'Lato', sans-serif; font-weight: 400; color: #21DEDE;  text-align: left; background-image: url(../../../resources/image/Path\ _14.png); background-repeat: no-repeat; background-position: center center; background-position: right center;     padding-right: 5px; background-origin: content-box;}
+.input-row{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; align-items: center; border-bottom: 2px solid #979797; margin-top: 54px; padding-bottom: 3px;}
+.input-col{float: left; width: calc(100% - 110px);}
+.input-col.submit{float: left; width: 110px;}
+/* === News-letter-wrap === */
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+
+    /* .news-letter-wrap{min-height: auto;  padding-top: 242px; z-index: 99;}
+    .new-take-wrap:before{height: 96px;}
+    .the-why .video-wrap-inner:before {content: ''; position: absolute; top: 155%; left: 18px; width: 9px; height: 46px; background-color: #5E5E5E; border-radius: 12px; left: 50%; transform: translateX(-50%); margin-left: 20px;}
+    .the-why .video-wrap-inner:after {content: ''; position: absolute; top: 127%; left: 50%; transform: translateX(-50%); right: auto; width: 9px; height: 84px; background-color: #272727; border-radius: 12px; margin-left: -21px;}
+    .video-wrap .section-title { width: 100%; position: absolute; top: 50%; transform: translateY(-50%) translateX(-50%); left: 50%; text-align: center; }
+    .video-wrap .section-title h3{width: 100%}
+    .video-wrap.how-blissway{padding-top: 256px;}
+    .news-letter-form span{font-size: 20px; line-height: 24px;} */
+    
+
+
+    .news-letter-form-wrap{padding: 0;}
+    .news-letter-form{padding: 50px 21px 12px; min-height: 217px;}
+    .news-letter-form-wrap:after{display: none;}
+    .news-letter-form-wrap:before { content: ''; position: absolute; width: 9px; height: 154%; background-image: linear-gradient(to top, #21DEDE, #1BA5DE); left: 50%; transform: translateX(-50%); top: -145%; z-index: -1; }
+    .news-letter-wrap{min-height: auto;  padding-top: 242px; z-index: 99;}
+    .news-letter-form span{font-size: 20px; line-height: 24px;}
+}
+
+
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .news-letter-wrap .common-wrap{padding: 0 61px;}
+    .news-letter-form-wrap{padding: 0 5.629442%;}
+    .news-letter-form-wrap:before{width: 14.3px; left: 6px;}
+    .news-letter-form-wrap:after{left: 6px;}
+}
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .news-letter-form-wrap:after, .news-letter-form-wrap:before{left: -3px;}
+}
+
+
+@media only screen and (min-width: 1367px){
+    .news-letter-form-wrap:after{left: 4.5px;}
+    .news-letter-form-wrap:before{width: 14.5px; left: 4.5px; top: -145%;}
+}

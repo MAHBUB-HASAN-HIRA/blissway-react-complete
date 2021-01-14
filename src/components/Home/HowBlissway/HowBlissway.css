@@ -1,0 +1,57 @@
+.how-blissway .play-btn:before{top: -245%; background-color: blue;}
+/* Video Modal */
+.video-wrap{z-index: 1}
+.how-blissway .play-btn:before { top: -430%; background-color: #1BA5DE; bottom: 99%;}
+.play-btn:before{background-color: #1BA5DE; bottom: 99%;}
+.how-blissway{padding-top: 448px;}
+#popup-root{float: left; width: 100%; position: fixed; top: 50%; left: 0;  z-index: 99; opacity: 1; visibility: hidden; transition: .3s ease-in-out; z-index: 99999999;}
+.play-btn:after {background-color: #1BA5DE; top: 99%;}
+.videoShow{overflow-y: hidden;}
+@media only screen and (min-width: 1025px){
+    .videoShow{margin-right: 17px;}
+}
+.video-modal-one-show, .video-modal-two-show{opacity: 1; visibility: visible;}
+.video-modal .common-wrap{max-width: 968px; margin: 0 auto;}
+.video-wrapper{float: left; width: 100%; position: relative;}
+.video-wrapper figure{width: 64px; cursor: pointer; position: absolute; top: -15px; right: -15px;left: auto; bottom: auto; z-index: 9;}
+.video-wrapper video{float: left; width: 100%; border-radius: 50px;}
+/* Video Modal */
+
+
+
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /* .the-why .video-wrap-inner:before {content: ''; position: absolute; top: 155%; left: 18px; width: 9px; height: 46px; background-color: #5E5E5E; border-radius: 12px; left: 50%; transform: translateX(-50%); margin-left: 20px;}
+    .the-why .video-wrap-inner:after {content: ''; position: absolute; top: 127%; left: 50%; transform: translateX(-50%); right: auto; width: 9px; height: 84px; background-color: #272727; border-radius: 12px; margin-left: -21px;}
+    .video-wrap .section-title { width: 100%; position: absolute; top: 50%; transform: translateY(-50%) translateX(-50%); left: 50%; text-align: center; }
+    .video-wrap .section-title h3{width: 100%}
+    .video-wrap.how-blissway{padding-top: 256px;}
+
+    .play-btn-wrap{width: 100%; justify-content: center;}
+    .play-btn{width: 78px; bottom: -32px; z-index: 9;}
+    .play-btn:after{display: none}
+    .video-wrap-thumb{width: 100%;}
+    .video-wrap {z-index: 111; padding-top: 234px;}
+    .video-wrap .section-title { width: 100%; position: absolute; top: 50%; transform: translateY(-50%) translateX(-50%); left: 50%; text-align: center; }
+    .video-wrap .section-title h3{width: 100%}
+    .video-wrap.how-blissway{padding-top: 256px;}
+    .video-wrap .section-title span{font-size: 20px; line-height: 24px;}
+    .video-content{width: 100%; margin-left: 0;} */
+}
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .how-blissway { padding-top: 388px; }
+}

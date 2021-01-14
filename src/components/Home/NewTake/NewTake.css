@@ -1,0 +1,73 @@
+/* === new-take-wrap === */
+.new-take-wrap{float: left; width: 100%; position: relative; background-color: #0D0D0D; z-index: 11;}
+.new-take-wrap:before{content: ''; position: absolute; left: 0; top: auto; bottom: 0;  width: 100%; height: 482px; background-image: url('../../../resources/image/overlay.png'); background-repeat: no-repeat; background-position: center center; background-size: cover;}
+.new-take-wrap .common-wrap{max-width: 968px;}
+.new-take-inner{float: right; width: 100%; max-width: 854px; margin-top: 67px;}
+.new-take-content-wrap{float: left; width: 62.348837%; margin-top: 270px; position: relative; z-index: 11;}
+.new-take-line-left{float: left; width: 20.865125%; position: relative;}
+.new-take-line-left:before{content: ''; position: absolute; top: 42%; left: -42px; right: auto; width: 15px; height: 258px; background-color: #272727; border-radius: 12px; }
+.new-take-line-left:after{content: ''; position: absolute; top: 35%; left: 37px; width: 15px; height: 211px; background-color: #5E5E5E; border-radius: 12px;}
+.new-take-line-left img{min-height: 705px;position: relative; bottom: -20px;}
+.new-take-content{float: left; width: 66.481696%; margin-left: 10.653179%;position: relative; z-index: 99;}
+.new-take-content h4{font-family: 'Lato', sans-serif; font-weight: 900;}
+.new-take-line-right{float: left; width: 34.41860465116279%; margin-left: 3.232558%;}
+.new-take-thumb-wrap{float: left; width: 1000%; }
+/* === new-take-wrap === */
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .new-take-line-left{display: none;}
+    .new-take-wrap{min-height: 479px; z-index: 9999; margin-top: -61px; background-position: bottom center; background-size: 100% 248px;}
+    .new-take-line-right{width: 30.418605%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: flex-end; position: relative;}
+    
+    .new-take-line-right:before{content: ''; position: absolute; top: auto; bottom: 69px; width: 9px; left: auto; right: 20px; height: 80px; background-color: #282828; border-radius: 12px;}
+    .new-take-line-right:after{content: ''; position: absolute; top: 25px; bottom: auto; width: 9.5px; left: auto; right: -20px; height: 84px; background-color: #575757; border-radius: 12px;}
+    
+    .new-take-content h4{font-size: 24px; line-height: 30px;}    
+    .new-take-content{width: 100%; margin-left: 9px;}
+    .new-take-inner {margin-top: 0;}
+    .play-btn:before{width: 9px; top: -707px;}
+    .new-take-content-wrap { float: left; width: 72.348837%; margin-top: 196px; position: relative; z-index: 11; margin-right: -9%; }
+    .new-take-wrap:before{height: 96px;}
+}
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .new-take-line-left{display: none;}
+    .new-take-wrap{min-height: 930px; z-index: 9999;}
+    .new-take-content-wrap{margin-top: 234px;}
+    .new-take-content h4{font-size: 38px;}
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1440px){
+    .new-take-line-left{width: 21.865125%;}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1365px){
+    .new-take-line-left{width: 21.865125%;}
+}
+
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+    .new-take-line-right { float: left; width: 29.418605%; margin-left: 6.232558%; position: relative; top: 35px; }
+    .new-take-line-left { float: left; width: 20.865125%;}
+    .new-take-inner{max-width: 861px;}
+    .news-letter-form-wrap:after, .news-letter-form-wrap:before{left: -3px;}
+    .main-footer-section .common-wrap{padding: 0 40px;}
+    .tab-item:after{width: 4.84041%;} 
+}

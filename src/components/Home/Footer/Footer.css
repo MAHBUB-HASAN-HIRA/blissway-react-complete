@@ -1,0 +1,54 @@
+/* === Footer Style === */
+.main-footer-section{float: left; width: 100%; min-height: 730px; padding-top: 465px; padding-bottom: 50px;}
+.main-footer-section .common-wrap{max-width: 1176px;}
+.footer-top-wrap{float: left; width: 100%; text-align: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center;}
+.footer-top-wrap h6, .footer-top-wrap a{float: left; width: 100%; text-align: center;font-size: 28px; line-height: 34px; font-family: 'Lato', sans-serif; font-weight: 900; color: #ffffff;}
+.footer-top-wrap a{color: #21DEDE;}
+.footer-bottom{float: left; width: 100%; margin-top: 174px;}
+.footer-bottom-inner{float: left; width: 100%; max-width: 256px;}
+.footer-logo{float: left; width: 48px;}
+.footer-bottom-inner span{float: left; width: 100%; font-size: 22px; line-height: 30px; font-family: 'Lato',sans-serif; font-weight: 300; color: #A2A2A2; margin-top: 10px;}
+.footer-bottom-inner p{float: left; width: 100%; font-size: 15px; line-height: 18px; font-family: 'Lato',sans-serif; font-weight: 300; color: #A2A2A2; margin-top: 56px;}
+/* === Footer Style === */
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .input-row{flex-flow: row wrap; border: none;}
+     input{font-size: 16px; text-align: center;}
+    .input-col{width: 100%; border-bottom: 2px solid #FFFFFF;}
+    .input-col.submit{width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; border: none; margin-top: 31px;}
+    .input-col.submit input[type="submit"]{width: 84px;font-size: 16px; line-height: 20px;}
+    .input-row{margin-top: 33px;}
+     
+    .main-footer-section{min-height: auto; padding-top: 205px;}
+    .footer-top-wrap h6, .footer-top-wrap a {font-size: 20px; line-height: 24px;}
+    .footer-bottom{margin-top: 151px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center;}
+    .footer-bottom-inner{max-width: 210px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center; }
+    .footer-bottom-inner span {font-size: 18px; line-height: 22px; text-align: center;}
+    .footer-bottom-inner p{text-align: center; margin-top: 32px;}
+
+}
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .footer-bottom-inner p{margin-top: 30px;} 
+}
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .main-footer-section .common-wrap{padding: 0 40px;}
+    .tab-item:after{width: 4.84041%;} 
+}

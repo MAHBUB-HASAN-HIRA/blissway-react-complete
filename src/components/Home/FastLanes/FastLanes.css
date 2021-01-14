@@ -1,0 +1,100 @@
+/* === Fast-lanes Section === */
+.fast-lanes{float: left; width: 100%; padding: 190px 0 0 0; background-color: #0D0D0D; z-index: 1;}
+.fast-lanes:before{content: ''; position: absolute; top: 221px; left: auto; right: -30px; width: 58%; height: 14.5px; background-color: #1BA5DE; border-radius: 12px; z-index: 1;}
+.fast-lanes .common-wrap{max-width: 1277px;}
+.fast-lanes-inner{float: left; width: 100%; position: relative;}
+.fast-lanes-inner:before{content: ''; position: absolute; left: auto; top: -10px; right: -30px; width: 6%; height: 14.5px; background-color: #575757; border-radius: 12px; }
+.fast-lanes-inner:after{content: ''; position: absolute; top: 72px; left: auto; right: 0; width: 8.5%; height: 14.5px; background-color: #272727; border-radius: 12px;}
+.fast-lanes-content-wrap{float: left; width: 100%; padding: 0 42px;}
+.lanes-line{float: left; width: 13.9375%; position: relative; top: 35px;}
+.fast-lanes-content-wrap .lanes-line img{min-height: 386px;}
+.fast-lanes-content-wrap .lanes-line img:nth-child(2){position: relative; top: -14px;}
+.lanes-line:before{content: ''; position: absolute; top: 140px; left: -42px; right: auto; width: 15px; height: 150px; background-color: #272727; border-radius: 12px;}
+.lanes-line:after{content: ''; position: absolute; top: 100px; left: 42px; right: auto; width: 15px; height: 90px; background-color: #5E5E5E; border-radius: 12px;}
+.fast-lanes-thumb-wrap{float: left; width: 77.95138888888889%; min-height: 478px; padding-left: 52px; margin-left: 0.96805555%;}
+.fast-lanes-logo{float: left; width: 33.33333333333333%; position: relative; top: -33px; z-index: 1;}
+.fast-lanes-content{float: right; width: 58.62884160756501%; background-color: #2E2E2E; padding: 33px 50px 42px 45px; color: #ffffff; position: relative; top: -91px; right: -38px; border-radius: 41px; z-index: 1;}
+.fast-lanes-content h2{float: left; color: #ffffff; font-family: 'Lato', sans-serif; font-weight: 900;}
+.fast-lanes-content p{float: left; color: #A8A8A8; font-size: 28px; line-height: 37px;}
+/* === Fast-lanes Section === */
+
+
+
+/* =======================================================================================================
+============================================ Responsive style ========================================== */
+
+/*		Mobile Layout: 320px and 480px and more but less than or equal to 767px.
+----------------------------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .fast-lanes{padding: 203px 0 0 0;}
+    .fast-lanes-content-wrap{padding: 0; position: relative;}
+    .fast-lanes-content-wrap .lanes-line img{display: none;}
+    .fast-lanes-content.desk{display: none;}
+    .fast-lanes-content p{ color: #A8A8A8; font-size: 22px; line-height: 26px; margin-top: 4px;}
+    .fast-lanes-content.mobi{display: block; margin-top: 0;  padding-left: 15px;}
+    .fast-lanes-content { float: right; width: 100%; background-color: transparent; padding: 0; color: #ffffff; position: relative; top: 0; right: auto; border-radius: 41px; z-index: 1; }
+    .fast-lanes-thumb-wrap{width: 100%; min-height: 179px; margin-top: 75px; margin-left: 0; padding-left: 12px; position: relative;}
+    .fast-lanes-logo{width: 30.333333%; top: -21px;}
+    
+    .fast-lanes-thumb-wrap:before{content: ''; position: absolute; top: auto; bottom: -103px; width: 8.5px; left: -6px; height: 81px; background-color: #575757; border-radius: 12px;}
+    .fast-lanes-thumb-wrap:after{content: ''; position: absolute; top: auto; bottom: -145px; width: 9px; left: 32px; height: 85px; background-color: #575757; border-radius: 12px;}
+    .fast-lanes-content-wrap:after{    content: ''; position: absolute; top: auto; bottom: -201px; width: 9px; left: 14px; height: 294px; background-color: #1BA5DE; border-radius: 12px;}
+    
+    .fast-lanes-inner:before {width: 31%; top: -101px; height: 9px;}
+    .fast-lanes-inner:after{width: 32%; right: 26px; top: -62px; height: 9px;}
+    .fast-lanes:before{top: 106px; width: 98%; min-height: 66px; height: auto; background-image: url(../../../resources/image/Path_60.png); background-repeat: no-repeat; background-position: center center; background-size: contain; background-color: transparent; right: -28px;}
+    .fast-lanes-inner{min-height: 615px; padding-bottom: 40px;}
+    .lanes-line:after{display: none}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+------------------------------------------------------------
+*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .fast-lanes-inner:before { width: 31%; top: -131px; height: 9px; }
+    .fast-lanes:before{min-height: 57px; right: -65px;}
+    .fast-lanes-inner { min-height: 780px; padding-bottom: 40px; }
+    .fast-lanes-thumb-wrap{min-height: 330px;}
+}
+
+/*		Tablet Layout: 768px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .fast-lanes-content-wrap{padding: 0;}
+    .fast-lanes-content-wrap .lanes-line img{display: none;}
+    .fast-lanes-content.desk{display: none;}
+    .fast-lanes-content.mobi{display: block; margin-top: 130px;}
+    .fast-lanes-content { float: right; width: 100%; background-color: transparent; padding: 0; color: #ffffff; position: relative; top: 0; right: auto; border-radius: 41px; z-index: 1; }
+    .fast-lanes-thumb-wrap{width: 100%; min-height: 390px; margin-top: 120px; margin-left: 0;}
+    .fast-lanes-inner:before { width: 17%}
+    .fast-lanes-inner:after{width: 20%; right: 43px;}
+    .fast-lanes:before{width: 91%; min-height: 70px; height: auto; background-image: url(../../../resources/image/Path_60.png); background-repeat: no-repeat; background-position: center center; background-size: cover; background-color: transparent;}
+    .fast-lanes-inner{min-height: 925px;}
+    .lanes-line:after{display: none}
+}
+
+/*		Tablet Layout: 1024px.
+-----------------------------------------------------------------
+*/
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .fast-lanes-content p{font-size: 23px; line-height: 30px;}
+    .fast-lanes-thumb-wrap{min-height: 374px;}
+    .fast-lanes-logo{width: 28.333333%;}
+    .lanes-line{width: 12.9375%;}
+    .fast-lanes-inner:after {width: 6.5%;}
+    .fast-lanes-content-wrap .lanes-line img { min-height: 361px; }
+}
+
+@media only screen and (min-width: 1367px){
+    .fast-lanes:before{width: 52%;}
+}
+@media only screen and (min-width: 1025px) and (max-width: 1365px){
+    .fast-lanes-content h2{font-size: 62px; line-height: 82px;}
+}
