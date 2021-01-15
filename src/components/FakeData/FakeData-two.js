@@ -1,3 +1,7 @@
+import wall from "../../resources/image/WAL.png";
+import democratizing_speed_2 from "../../resources/image/democratizing_speed_2.png"
+import dashboard_3 from "../../resources/image/dashboard_3.png"
+
 const fakeDataTwo = [
     {
         name:'Future-proof lane enforcement',
@@ -10,6 +14,7 @@ const fakeDataTwo = [
             'solar-powered',
             'wireless data transfer',
         ],
+        background_image:wall,
         number:'one',
     },
     {
@@ -20,6 +25,7 @@ const fakeDataTwo = [
             'near-perfect enforcement',
             'high granularity (1, 2, 3, 4+ occupants)'
         ],
+        background_image:democratizing_speed_2,
         number:'two',
     },
     {
@@ -30,6 +36,7 @@ const fakeDataTwo = [
             'maximizes vehicle throughput',
             'opens the door to free flow conditions 24/7',
         ],
+        background_image: dashboard_3,
         number:'three',
     },
 ];

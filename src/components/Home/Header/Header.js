@@ -5,6 +5,16 @@ import solving from '../../../resources/image/solving.png';
 import scrollDown from '../../../resources/image/scroll-down.png';
 
 const Header = () => {
+
+    function handleScroll() {
+        window.scroll({
+            top: document.body.offsetHeight,
+            top:800,
+            behavior:'smooth',
+        });
+      }
+
+
     return (
         <section className="hero-wrap">
             <div className="common-wrap clear">
@@ -28,7 +38,7 @@ const Header = () => {
                             <h4>Highway Congestion</h4>
                         </div>
                         <div className="scroll-down-wrap">
-                            <div className="scroll-down-btn">
+                            <div  onClick={handleScroll} className="scroll-down-btn">
                                 <img src={scrollDown} alt=""/>
                                 <span>scroll down <dfn>to learn more</dfn></span>
                             </div>

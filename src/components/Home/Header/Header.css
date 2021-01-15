@@ -18,7 +18,7 @@
 .hero-content figure:after{content: ''; position: absolute; left: 100%; right: -10000px; height: 14.5px; top: 62%; transform: translateY(-53%); background-color: #0A91D8;}
 .hero-content h4{float: left; width: 100%; text-align: center; color: #ffffff; font-family: 'Lato', sans-serif; font-weight: 400; position: relative; top: -35px;}
 .scroll-down-wrap{float: left; width: 100%; margin-top: 64px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center;}
-.scroll-down-btn{float: left; width: 100%; width: 95px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;}
+.scroll-down-btn{float: left; width: 100%; width: 95px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-flow: row wrap; justify-content: center; text-align: center; cursor: pointer;}
 .scroll-down-btn img{width: 26px;}
 .scroll-down-btn span{float: left; width: 100%; font-size: 16px; line-height: 16px; color: #ffffff; margin-top: 19px; font-family: 'Lato', sans-serif; font-weight: 400;}
 .scroll-down-btn dfn{font-family: 'Lato', sans-serif; font-weight: 300; color: #B2B2B2;}
@@ -54,7 +54,7 @@
     .solving-logo-wrap{margin-top: 30px;}
     .logo{width: 207px;}
     .hero-content h4{float: none; width: 68%!important; float: none; width: 73%; margin: 0 auto; top: 18px; clear: both; clear: both;}
-    .scroll-down-wrap{margin-top: 191px;}
+    .scroll-down-wrap{margin-top: 90px;}
     .solving-logo:before, .solving-logo:after, .solving-logo-wrap:after, .solving-logo-wrap:before{display: none}
     .hero-content figure:before, .hero-content figure:after{display: none;}
     .solving-logo-wrap:before, .solving-logo-wrap:after{display: none;}

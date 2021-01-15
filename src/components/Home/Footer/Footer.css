@@ -20,13 +20,7 @@
 */
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
-    .input-row{flex-flow: row wrap; border: none;}
-     input{font-size: 16px; text-align: center;}
-    .input-col{width: 100%; border-bottom: 2px solid #FFFFFF;}
-    .input-col.submit{width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; border: none; margin-top: 31px;}
-    .input-col.submit input[type="submit"]{width: 84px;font-size: 16px; line-height: 20px;}
-    .input-row{margin-top: 33px;}
-     
+    
     .main-footer-section{min-height: auto; padding-top: 205px;}
     .footer-top-wrap h6, .footer-top-wrap a {font-size: 20px; line-height: 24px;}
     .footer-bottom{margin-top: 151px; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center;}

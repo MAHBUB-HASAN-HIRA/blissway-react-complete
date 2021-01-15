@@ -45,7 +45,7 @@
     .tab-item-content {float: left; position: relative; width: 100%; max-width: 100%; top: 0; left: 0; transform: translateX(0); z-index: 9;     padding: 40px 31px;}
     .tab-item ul, .new-take-content ul{margin-top: 15px;}
     .tab-item li, .new-take-content li{font-size: 16px; line-height: 22px;}
-    .tab-item li:before, .new-take-content li:before{top: 5px;}
+    .tab-item li:before, .new-take-content li:before{top: 6px;}
     .blissway-tab-handler { position: absolute; top: 231px; left: 50%; transform: translateX(-50%); width: 100%; max-width: 252px; height: auto; background-color: transparent; padding-right: 0; }
     .blissway-tab-handler .tab-nav-wrap {width: 58%; position: relative; right: 0; top: 30%; left: 50%; transform: translateY(-50%) translateX(-50%); z-index: 99999;}
     .blissway-tab-handler .lanes-tab-nav-inner{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex;}

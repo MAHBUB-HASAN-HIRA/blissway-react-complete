@@ -12,6 +12,10 @@ input[type="submit"]{font-size: 20px; line-height: 36px; font-family: 'Lato', sa
 .input-row{float: left; width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; align-items: center; border-bottom: 2px solid #979797; margin-top: 54px; padding-bottom: 3px;}
 .input-col{float: left; width: calc(100% - 110px);}
 .input-col.submit{float: left; width: 110px;}
+.email_field:focus{
+    background: transparent;
+    background-color: #2E2E2E;
+}
 /* === News-letter-wrap === */
 
 /* =======================================================================================================
@@ -23,15 +27,12 @@ input[type="submit"]{font-size: 20px; line-height: 36px; font-family: 'Lato', sa
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
 
-    /* .news-letter-wrap{min-height: auto;  padding-top: 242px; z-index: 99;}
-    .new-take-wrap:before{height: 96px;}
-    .the-why .video-wrap-inner:before {content: ''; position: absolute; top: 155%; left: 18px; width: 9px; height: 46px; background-color: #5E5E5E; border-radius: 12px; left: 50%; transform: translateX(-50%); margin-left: 20px;}
-    .the-why .video-wrap-inner:after {content: ''; position: absolute; top: 127%; left: 50%; transform: translateX(-50%); right: auto; width: 9px; height: 84px; background-color: #272727; border-radius: 12px; margin-left: -21px;}
-    .video-wrap .section-title { width: 100%; position: absolute; top: 50%; transform: translateY(-50%) translateX(-50%); left: 50%; text-align: center; }
-    .video-wrap .section-title h3{width: 100%}
-    .video-wrap.how-blissway{padding-top: 256px;}
-    .news-letter-form span{font-size: 20px; line-height: 24px;} */
-    
+    .input-row{flex-flow: row wrap; border: none;}
+     input{font-size: 16px; text-align: center;}
+    .input-col{width: 100%; border-bottom: 2px solid #e2e2e2;}
+    .input-col.submit{width: 100%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; justify-content: center; border: none; margin-top: 31px;}
+    .input-col.submit input[type="submit"]{width: 84px;font-size: 16px; line-height: 20px;}
+    .input-row{margin-top: 33px;}
 
 
     .news-letter-form-wrap{padding: 0;}
