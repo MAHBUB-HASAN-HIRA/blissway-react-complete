@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Blissway.css';
-import Wall from '../../../resources/image/WAL.png';
 import fakeDataTwo from '../../FakeData/FakeData-two';
 
 const Blissway = () => {
@@ -26,7 +25,7 @@ const Blissway = () => {
             <div className="blissway-tab-wrap">
                <div className="blissway-tab-item-wrap">
                    <div className="tab-item">
-                       <div className="tab-item-thumb" style={{backgroundImage: `url(${Wall}`}}></div>
+                       <div className="tab-item-thumb" style={{backgroundImage: `url(${tabItem.background_image}`}}></div>
                        <div className="tab-item-content"> 
                            <h6>{tabItem.name}</h6>
                            <ul>
